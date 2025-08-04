@@ -95,7 +95,7 @@
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                             &kp ESC
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+        sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
