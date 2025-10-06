@@ -92,10 +92,10 @@
 
         FUNCTION {
             bindings = <
-&kp TAB                 &kp RC(Q)             &kp TAB            &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp RS(LC(TAB))         &kp LC(TAB)           &trans             &trans                    &kp RG(SPACE)              &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp RG(RS(LEFT_ARROW))  &kp RS(RG(UP_ARROW))  &kp RS(RG(RIGHT))  &trans                    &trans                     &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans                  &trans                &trans             &trans                    &trans                     &trans      &trans   &trans                          &kp F12
+&kp TAB                 &kp RC(Q)             &kp TAB            &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))                      &kp F5  &kp F12  &trans  &trans  &trans
+&kp RS(LC(TAB))         &kp LC(TAB)           &trans             &trans                    &kp RG(SPACE)              &trans      &trans  &trans  &trans   &trans  &trans  &trans
+&kp RG(RS(LEFT_ARROW))  &kp RS(RG(UP_ARROW))  &kp RS(RG(RIGHT))  &trans                    &trans                     &trans      &trans  &trans  &trans   &trans  &trans  &trans
+&trans                  &trans                &trans             &trans                    &trans                     &trans      &trans  &trans                           &trans
             >;
         };
 
