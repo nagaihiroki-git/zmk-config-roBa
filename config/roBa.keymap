@@ -141,10 +141,10 @@
 
         layer_7 {
             bindings = <
-&trans     &trans         &trans  &kp RS(F6)     &kp RG(RS(T))                      &trans  &trans  &trans  &trans  &trans
-&trans     &trans         &trans  &kp RA(ENTER)  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp RSHFT  &kp RC(RS(M))  &trans  &kp RC(RA(B))  &kp RG(B)      &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans         &trans  &trans         &trans         &trans      &trans  &trans                          &trans
+&trans     &trans         &trans         &kp RS(F6)     &kp RG(RS(T))                      &trans  &trans  &trans  &trans  &trans
+&trans     &trans         &trans         &kp RA(ENTER)  &kp RG(N)      &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp RSHFT  &kp RC(RS(M))  &kp RG(SLASH)  &kp RC(RA(B))  &kp RG(B)      &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans         &trans         &trans         &trans         &trans      &trans  &trans                          &trans
             >;
         };
 
