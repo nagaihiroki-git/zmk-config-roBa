@@ -92,7 +92,7 @@
 
         FUNCTION {
             bindings = <
-&trans                  &trans                &trans             &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))                      &kp F5  &kp F12  &trans  &trans  &trans
+&kp TAB                 &trans                &trans             &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))                      &kp F5  &kp F12  &trans  &trans  &trans
 &kp RS(LC(TAB))         &kp LC(TAB)           &trans             &kp RS(RA(RC(T)))         &kp RG(SPACE)              &trans      &trans  &trans  &trans   &trans  &trans  &trans
 &kp RG(RS(LEFT_ARROW))  &kp RS(RG(UP_ARROW))  &kp RS(RG(RIGHT))  &trans                    &trans                     &trans      &trans  &trans  &trans   &trans  &trans  &trans
 &trans                  &trans                &trans             &trans                    &trans                     &trans      &trans  &trans                           &trans
