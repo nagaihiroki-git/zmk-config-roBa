@@ -47,28 +47,21 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        // automouse-layerは使わない（Input Processorを使用するため）
     };
 };
 
 #include <input/processors.dtsi>
 
 &zip_temp_layer {
-    // キー入力中の誤爆防止
     require-prior-idle-ms = <200>;
-    // これらのキー以外を押すとAML解除
-    excluded-positions = 
-        18 // J
-        19 // K
-        21 // ;
-        34 // Ctrl
-    >;
+    // J=18, K=19, ;=21, Ctrl=34
+    excluded-positions = <18 19 21 34>;
 };
 
 / {
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 6 10000>;  // レイヤー6, 10秒
+        input-processors = <&zip_temp_layer 6 10000>;
     };
 };
