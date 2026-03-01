@@ -92,19 +92,19 @@
 
         NUM {
             bindings = <
-&kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET                                       &none   &none  &none  &none  &none
-&kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL          &kp LC(LA(KP_NUMBER_0))      &none   &none   &none  &none  &none  &none
-&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &trans                       &none   &none   &none  &none  &none  &none
-&trans            &trans        &trans        &kp PERIOD    &kp N0             &kp MINUS                    &trans  &trans                       &none
+&kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET                                       &trans  &trans  &trans  &trans  &trans
+&kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL          &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &trans        &trans        &kp PERIOD    &kp N0             &kp MINUS                    &trans  &trans                          &trans
             >;
         };
 
         symbol {
             bindings = <
-&kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE                               &none   &none  &none  &none  &none
-&kp SEMICOLON   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp PLUS               &none          &none   &none   &none  &none  &none  &none
-&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp PIPE               &none          &none   &none   &none  &none  &none  &none
-&none           &none            &none         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &trans  &trans                       &none
+&kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE                               &trans  &trans  &trans  &trans  &trans
+&kp SEMICOLON   &kp DOLLAR       &kp PERCENT   &kp CARET             &kp PLUS               &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp PIPE               &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans           &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -112,19 +112,19 @@
 
         MOUSE {
             bindings = <
-&none  &none  &none  &none  &none                        &kp RC(RS(Z))  &kp RC(V)  &kp RC(C)  &kp RC(X)     &kp RC(Z)
-&none  &none  &none  &none  &none  &none      &none      &kp CAPS       &mkp LCLK  &mkp RCLK  &mmv MOVE_UP  &none
-&none  &none  &none  &none  &none  &none      &none      &kp INSERT     &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT
-&none  &none  &none  &none  &none  &none      &mkp LCLK  &mkp RCLK                                          &none
+&trans  &trans  &trans  &trans  &trans                         &kp RC(RS(Z))  &kp RC(V)  &kp RC(C)  &kp RC(X)     &kp RC(Z)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp CAPS       &mkp LCLK  &mkp RCLK  &mmv MOVE_UP  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp INSERT     &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans      &mkp LCLK  &mkp RCLK                                          &trans
             >;
         };
 
         NAV {
             bindings = <
-&none  &none  &none  &none  &none                        &kp RC(RS(Z))  &kp RC(V)       &kp RC(C)       &kp RC(X)     &kp RC(Z)
-&none  &none  &none  &none  &none  &none      &none      &kp CAPS       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT
-&none  &none  &none  &none  &none  &none      &none      &kp INSERT     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END
-&none  &none  &none  &none  &none  &none      &mkp LCLK  &mkp RCLK                                                    &none
+&trans  &trans  &trans  &trans  &trans                         &kp RC(RS(Z))  &kp RC(V)       &kp RC(C)       &kp RC(X)     &kp RC(Z)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp CAPS       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp INSERT     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END
+&trans  &trans  &trans  &trans  &trans  &trans      &mkp LCLK  &mkp RCLK                                                    &trans
             >;
         };
 
